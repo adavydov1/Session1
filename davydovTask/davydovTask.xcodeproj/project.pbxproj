@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F80DB102822A1A400CBAADE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F80DB0F2822A1A400CBAADE /* AppDelegate.swift */; };
+		3F80DB122822A1A400CBAADE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F80DB112822A1A400CBAADE /* SceneDelegate.swift */; };
+		3F80DB142822A1A400CBAADE /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F80DB132822A1A400CBAADE /* SignInViewController.swift */; };
+		3F80DB172822A1A400CBAADE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F80DB152822A1A400CBAADE /* Main.storyboard */; };
+		3F80DB192822A1A500CBAADE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F80DB182822A1A500CBAADE /* Assets.xcassets */; };
+		3F80DB1C2822A1A500CBAADE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F80DB1A2822A1A500CBAADE /* LaunchScreen.storyboard */; };
+		3F80DB2F2822A3CC00CBAADE /* Alegreya-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F80DB242822A3CC00CBAADE /* Alegreya-BlackItalic.ttf */; };
+		3F80DB302822A3CC00CBAADE /* Alegreya-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F80DB252822A3CC00CBAADE /* Alegreya-ExtraBold.ttf */; };
+		3F80DB312822A3CC00CBAADE /* Alegreya-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F80DB262822A3CC00CBAADE /* Alegreya-MediumItalic.ttf */; };
+		3F80DB322822A3CC00CBAADE /* Alegreya-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F80DB272822A3CC00CBAADE /* Alegreya-Bold.ttf */; };
+		3F80DB332822A3CC00CBAADE /* Alegreya-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F80DB282822A3CC00CBAADE /* Alegreya-ExtraBoldItalic.ttf */; };
+		3F80DB342822A3CC00CBAADE /* Alegreya-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F80DB292822A3CC00CBAADE /* Alegreya-Medium.ttf */; };
+		3F80DB352822A3CC00CBAADE /* Alegreya-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F80DB2A2822A3CC00CBAADE /* Alegreya-Regular.ttf */; };
+		3F80DB362822A3CC00CBAADE /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3F80DB2B2822A3CC00CBAADE /* OFL.txt */; };
+		3F80DB372822A3CC00CBAADE /* Alegreya-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F80DB2C2822A3CC00CBAADE /* Alegreya-BoldItalic.ttf */; };
+		3F80DB382822A3CC00CBAADE /* Alegreya-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F80DB2D2822A3CC00CBAADE /* Alegreya-Italic.ttf */; };
+		3F80DB392822A3CC00CBAADE /* Alegreya-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F80DB2E2822A3CC00CBAADE /* Alegreya-Black.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F80DB0C2822A1A400CBAADE /* davydovTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = davydovTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F80DB0F2822A1A400CBAADE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F80DB112822A1A400CBAADE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3F80DB132822A1A400CBAADE /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		3F80DB162822A1A400CBAADE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F80DB182822A1A500CBAADE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F80DB1B2822A1A500CBAADE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F80DB1D2822A1A500CBAADE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F80DB242822A3CC00CBAADE /* Alegreya-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-BlackItalic.ttf"; sourceTree = "<group>"; };
+		3F80DB252822A3CC00CBAADE /* Alegreya-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-ExtraBold.ttf"; sourceTree = "<group>"; };
+		3F80DB262822A3CC00CBAADE /* Alegreya-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-MediumItalic.ttf"; sourceTree = "<group>"; };
+		3F80DB272822A3CC00CBAADE /* Alegreya-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-Bold.ttf"; sourceTree = "<group>"; };
+		3F80DB282822A3CC00CBAADE /* Alegreya-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		3F80DB292822A3CC00CBAADE /* Alegreya-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-Medium.ttf"; sourceTree = "<group>"; };
+		3F80DB2A2822A3CC00CBAADE /* Alegreya-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-Regular.ttf"; sourceTree = "<group>"; };
+		3F80DB2B2822A3CC00CBAADE /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		3F80DB2C2822A3CC00CBAADE /* Alegreya-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-BoldItalic.ttf"; sourceTree = "<group>"; };
+		3F80DB2D2822A3CC00CBAADE /* Alegreya-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-Italic.ttf"; sourceTree = "<group>"; };
+		3F80DB2E2822A3CC00CBAADE /* Alegreya-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-Black.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F80DB092822A1A400CBAADE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F80DB032822A1A400CBAADE = {
+			isa = PBXGroup;
+			children = (
+				3F80DB0E2822A1A400CBAADE /* davydovTask */,
+				3F80DB0D2822A1A400CBAADE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F80DB0D2822A1A400CBAADE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F80DB0C2822A1A400CBAADE /* davydovTask.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F80DB0E2822A1A400CBAADE /* davydovTask */ = {
+			isa = PBXGroup;
+			children = (
+				3F80DB3C2822A53C00CBAADE /* Assets */,
+				3F80DB3B2822A46500CBAADE /* Storyboards */,
+				3F80DB3A2822A40600CBAADE /* Controllers */,
+				3F80DB1D2822A1A500CBAADE /* Info.plist */,
+			);
+			path = davydovTask;
+			sourceTree = "<group>";
+		};
+		3F80DB232822A32F00CBAADE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3F80DB2E2822A3CC00CBAADE /* Alegreya-Black.ttf */,
+				3F80DB242822A3CC00CBAADE /* Alegreya-BlackItalic.ttf */,
+				3F80DB272822A3CC00CBAADE /* Alegreya-Bold.ttf */,
+				3F80DB2C2822A3CC00CBAADE /* Alegreya-BoldItalic.ttf */,
+				3F80DB252822A3CC00CBAADE /* Alegreya-ExtraBold.ttf */,
+				3F80DB282822A3CC00CBAADE /* Alegreya-ExtraBoldItalic.ttf */,
+				3F80DB2D2822A3CC00CBAADE /* Alegreya-Italic.ttf */,
+				3F80DB292822A3CC00CBAADE /* Alegreya-Medium.ttf */,
+				3F80DB262822A3CC00CBAADE /* Alegreya-MediumItalic.ttf */,
+				3F80DB2A2822A3CC00CBAADE /* Alegreya-Regular.ttf */,
+				3F80DB2B2822A3CC00CBAADE /* OFL.txt */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		3F80DB3A2822A40600CBAADE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3F80DB132822A1A400CBAADE /* SignInViewController.swift */,
+				3F80DB0F2822A1A400CBAADE /* AppDelegate.swift */,
+				3F80DB112822A1A400CBAADE /* SceneDelegate.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3F80DB3B2822A46500CBAADE /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3F80DB152822A1A400CBAADE /* Main.storyboard */,
+				3F80DB1A2822A1A500CBAADE /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		3F80DB3C2822A53C00CBAADE /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				3F80DB182822A1A500CBAADE /* Assets.xcassets */,
+				3F80DB232822A32F00CBAADE /* Fonts */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F80DB0B2822A1A400CBAADE /* davydovTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F80DB202822A1A500CBAADE /* Build configuration list for PBXNativeTarget "davydovTask" */;
+			buildPhases = (
+				3F80DB082822A1A400CBAADE /* Sources */,
+				3F80DB092822A1A400CBAADE /* Frameworks */,
+				3F80DB0A2822A1A400CBAADE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = davydovTask;
+			productName = davydovTask;
+			productReference = 3F80DB0C2822A1A400CBAADE /* davydovTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F80DB042822A1A400CBAADE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					3F80DB0B2822A1A400CBAADE = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 3F80DB072822A1A400CBAADE /* Build configuration list for PBXProject "davydovTask" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F80DB032822A1A400CBAADE;
+			productRefGroup = 3F80DB0D2822A1A400CBAADE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F80DB0B2822A1A400CBAADE /* davydovTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F80DB0A2822A1A400CBAADE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F80DB382822A3CC00CBAADE /* Alegreya-Italic.ttf in Resources */,
+				3F80DB342822A3CC00CBAADE /* Alegreya-Medium.ttf in Resources */,
+				3F80DB372822A3CC00CBAADE /* Alegreya-BoldItalic.ttf in Resources */,
+				3F80DB362822A3CC00CBAADE /* OFL.txt in Resources */,
+				3F80DB1C2822A1A500CBAADE /* LaunchScreen.storyboard in Resources */,
+				3F80DB312822A3CC00CBAADE /* Alegreya-MediumItalic.ttf in Resources */,
+				3F80DB352822A3CC00CBAADE /* Alegreya-Regular.ttf in Resources */,
+				3F80DB332822A3CC00CBAADE /* Alegreya-ExtraBoldItalic.ttf in Resources */,
+				3F80DB192822A1A500CBAADE /* Assets.xcassets in Resources */,
+				3F80DB302822A3CC00CBAADE /* Alegreya-ExtraBold.ttf in Resources */,
+				3F80DB2F2822A3CC00CBAADE /* Alegreya-BlackItalic.ttf in Resources */,
+				3F80DB172822A1A400CBAADE /* Main.storyboard in Resources */,
+				3F80DB392822A3CC00CBAADE /* Alegreya-Black.ttf in Resources */,
+				3F80DB322822A3CC00CBAADE /* Alegreya-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F80DB082822A1A400CBAADE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F80DB142822A1A400CBAADE /* SignInViewController.swift in Sources */,
+				3F80DB102822A1A400CBAADE /* AppDelegate.swift in Sources */,
+				3F80DB122822A1A400CBAADE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F80DB152822A1A400CBAADE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F80DB162822A1A400CBAADE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F80DB1A2822A1A500CBAADE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F80DB1B2822A1A500CBAADE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F80DB1E2822A1A500CBAADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F80DB1F2822A1A500CBAADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F80DB212822A1A500CBAADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YN2W87B929;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = davydovTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kp11.davydovTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F80DB222822A1A500CBAADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YN2W87B929;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = davydovTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kp11.davydovTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F80DB072822A1A400CBAADE /* Build configuration list for PBXProject "davydovTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F80DB1E2822A1A500CBAADE /* Debug */,
+				3F80DB1F2822A1A500CBAADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F80DB202822A1A500CBAADE /* Build configuration list for PBXNativeTarget "davydovTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F80DB212822A1A500CBAADE /* Debug */,
+				3F80DB222822A1A500CBAADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F80DB042822A1A400CBAADE /* Project object */;
+}
